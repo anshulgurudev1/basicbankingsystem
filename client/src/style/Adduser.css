@@ -1,0 +1,79 @@
+
+.container{
+    max-width: 50rem;
+    margin: auto;
+    -webkit-box-shadow: 8px 7px 15px 4px #000000; 
+box-shadow: 8px 7px 15px 4px #000000;
+    padding-bottom: 2rem;
+}
+header{
+    width: 100%;
+    background:#955df4;
+    padding: 1rem ;
+}
+header h3{
+    color:#fff;
+    margin-left: 1.5rem;
+}
+.table-users{
+    width: 90%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+.td1{
+    text-align: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: .5rem;
+}
+.th1{
+    background-color: #fafafa;
+    padding: 1rem auto;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: .5rem;
+
+}
+
+.btn{
+    background: transparent;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+}
+/* .btn-delete{
+    color:var(--secondry-color) ;
+    border: 1px solid var(--secondry-color);
+}
+.btn-delete:hover{
+    background: var(--secondry-color);
+    color: #fff;
+} */
+.table-wrapper{
+    text-align: center;
+}
+.btn-add{
+    width: 6rem;
+    height:2rem ;
+    background: #955df4;
+    border: none;
+    color: #fff; 
+}
+Link{
+    text-decoration: none;
+    color: red;
+}
+.link1{
+   text-decoration: none;
+}
+.load{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

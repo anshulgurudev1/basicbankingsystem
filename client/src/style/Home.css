@@ -1,0 +1,93 @@
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./pic/bank.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.Navbar{
+    display: flex;
+    
+}
+.logo{
+    width: 30%;
+    padding: 14px 16px;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+
+
+.menu{
+ 
+   width: 70%;
+   position: relative;
+}
+ul{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+   
+}
+li {
+    float: left;
+   list-style: none;
+  }
+  
+  li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: rgb(116, 109, 109);
+  }
+  .Greating{
+      
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+      margin-top: 15px;
+      padding: 5px;
+  }
+  .Greating > h3{
+      margin-top: 5px;
+  }
+  .footer{
+      height: 40%;
+      width: 100vw;
+      
+      position: absolute;
+      bottom: 0; 
+      display: flex; 
+      justify-content: space-evenly; 
+  }
+  .adduser{
+      width: 30%;
+      height: 100%;
+      text-align: center;
+  }
+  .img{
+      width: 90%;
+      height: 80%;
+      border-radius: 18px;
+  }
+  .img1{
+      height: 100%;
+     
+      border-radius: 50%;
+  }
+  .adduser >button{
+      text-transform: uppercase;
+      background-color: darkgrey;
+      padding: 10px;
+      margin-left: -20px;
+      margin-top: 5px;
+  }
+  
